@@ -1,0 +1,76 @@
+/*
+Theme Name: DNA
+Author: Trapstudio
+Author URI: http://www.trapstudio.it/
+GitHub Theme URI: https://github.com/trapstudio/dna
+Version: 1.2.0
+Text Domain: dna
+*/
+.alignleft {
+  display: block;
+  margin-bottom: 10px;
+}
+.alignright {
+  display: block;
+  margin-bottom: 10px;
+}
+.aligncenter {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.u-full-width {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.error404 .c-page-header,
+.error404 .c-content__text {
+  text-align: center;
+}
+/*HEADROOM*/
+/*
+.c-site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.c-site-header.headroom {
+  -webkit-transition: -webkit-transform 200ms linear;
+  transition: -webkit-transform 200ms linear;
+  transition: transform 200ms linear;
+  transition: transform 200ms linear, -webkit-transform 200ms linear;
+}
+.c-site-header.headroom--unpinned {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.c-site-header.headroom--pinned:not(.headroom--top) {
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+*/
+/*FINE HEADROOM*/
+@media screen and (min-width: 480px) {
+}
+@media screen and (min-width: 768px) {
+  .alignleft {
+    margin-right: 10px;
+    float: left;
+    clear: left;
+  }
+  .alignright {
+    margin-left: 10px;
+    float: right;
+    clear: right;
+  }
+}
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1280px) {
+}
